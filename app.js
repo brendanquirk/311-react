@@ -37,7 +37,7 @@ class App extends React.Component {
   // }
   fetchData = () => {
     fetch(
-      `https://data.cityofnewyork.us/resource/fhrw-4uyv.json?borough=${this.state.borough}&agency=NYPD&limit=10`,
+      `https://data.cityofnewyork.us/resource/fhrw-4uyv.json?borough=${this.state.borough}&agency=NYPD`,
       {
         method: 'GET',
         data: {
